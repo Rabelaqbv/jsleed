@@ -1,35 +1,54 @@
-body{    
-    background-color: rgb(142, 223, 223);
-    color: aliceblue;
-    text-align: center;
-}
+body  {
+    
+  background-image: url("GALA.jpg");
+  background-color: rgb(126, 46, 46);
+  color: rgb(36, 66, 126);
 
-.button {
-    background-color: #f3f3f3;
-    border: none;
-    color: rgb(7, 6, 6);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-
-.caixa-flex{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(23, 49, 192);
 
 }
 
-.caixa-flex > p {
-    background-color: rgb(22, 51, 216);
-    width: 120px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
+h2{
+
+  background-color: rgb(25, 94, 88);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  color: #09070c;
+width: auto 200px;
+
+}
+p{
+  background-color:  rgb(21, 113, 141);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: smaller;
+  color: #0f0c0f;
+width: auto 100px;
+
+}
+button{
+
+  background-color: rgba(250, 235, 215, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 100% 20px;
+  font-size: 25px;
+  border-style: solid ;
+  cursor: pointer;
+  text-align: center;
+  width: block;
+  color:rgb(255, 255, 255) ;
+}
+.flex-container {
+  display: flex;
+ background-color: #a31eaf00;
+  
+ 
+  flex-direction: row;
+}
+
+.flex-container > div {
+background-color:rgb(14, 36, 83);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  flex-direction: row;
+}
