@@ -1,9 +1,7 @@
 function verde(){
-    document.getElementById('imagem2').src='led-verde.png';
-
+    document.getElementById('myImage').src='led-verde.png';
 }
 
-function vermelho(){
-    document.getElementById('imagem2').src='led-verm.png';
-
+function vermelha(){
+    document.getElementById('myImage').src='led-vermelha.png';
 }

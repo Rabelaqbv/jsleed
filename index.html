@@ -1,34 +1,24 @@
 <!DOCTYPE html>
-<html>
-    <head>
-<link rel="stylesheet" href="style.css">
-
-    </head>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Java</title>
+   
+</head>
 <body>
-<center>
-<h2> DIA E NOITE </h2>
+    <p>JavaScript pode modificar atributos.</p>
 
-<p> Lua e Sol </p>
+<p>Neste caso ele modifica o atributo src (source) de uma imagem.</p>
 
-<p>clique para alternar entre dia e noite</p>
-</center>
+<button onclick="document.getElementById('myImage').src='led-vermelha.png'">desliga</button>
 
+<img id="myImage" src="led-vermelha.png" style="width:150px">
 
+<button onclick="document.getElementById('myImage').src='led-verde.png'">liga</button>
 
-<div class="flex-container">
-
-    <div><button type="button" onclick="star()"
-        DIA>DIA</button></div>
-
-    <div><img id="myImage" src="lua.jpg" style="width:100px"></div>
-
-    <div><button type="button" onclick="moon()" 
-        NOITE >NOITE</button>
-         
-
-  </div>
-</center>
-<script src="script.js"></script>
+<script>scr="script.js"</script>
 
 </body>
 </html>
